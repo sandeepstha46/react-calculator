@@ -1,0 +1,15 @@
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator__body {
+  width: 360px;
+  height: 800px;
+  padding: 4px 16px;
+  border-radius: 24px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(353deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 26%, rgba(99, 99, 99, 1) 100%);
+}
