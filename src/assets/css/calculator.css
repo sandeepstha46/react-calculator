@@ -1,3 +1,5 @@
+@import url("../../App.css");
+
 .calculator {
   display: flex;
   align-items: center;
@@ -8,8 +10,40 @@
 .calculator__body {
   width: 360px;
   height: 800px;
-  padding: 4px 16px;
+  padding: 8px 0 0 0;
   border-radius: 24px;
   background: rgb(2, 0, 36);
   background: linear-gradient(353deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 26%, rgba(99, 99, 99, 1) 100%);
+}
+
+.top__columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.top__columns--time {
+  font-size: 12px;
+  color: var(--default-white);
+}
+
+.top__columns--others img {
+  width: 14px;
+}
+
+.display__print {
+  height: 324px;
+}
+
+.display__actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.actions__number {
+  width: 90px;
+  height: 90px;
+  border: 0;
+  color: var(--default-white);
+  background-color: transparent;
 }
